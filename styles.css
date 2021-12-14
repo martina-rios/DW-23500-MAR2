@@ -1,0 +1,114 @@
+h1{
+    font-size: xx-large;
+    color: #50808E;
+}
+p{
+    color: #69A297;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url('imgs/forest.jpg');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+header{
+    text-align: center;
+}
+footer{
+    font-family: sans-serif;
+    color: #A3C9A8;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+a:link, a:visited {
+    background-color: #50808E;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+footer {
+    padding: 5%;
+    text-align: center;
+}
+main {
+    margin: 5%;
+}
+nav {
+    position: sticky;
+    top:0;
+    z-index: 1000;
+    margin-top: 10px;
+}
+li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    }
+section article {
+    background-color: whitesmoke;
+    width: 500px;
+    height: 500px;
+}
+grid__template {
+    display: grid;
+    background-color: thistle;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 3fr 1fr;
+}
+#plantilla {
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "plataformas plataformas plataformas"
+    "info info info"
+    "video video vid-text"
+    "news news news"
+    "media media media"
+    "sign-up sign-up sign-up"
+    "newsletter newsletter newsletter"
+    "tw-feed tw-feed tw-feed"
+    "awards awards awards"
+    "merch merch merch"
+    "footer footer footer";
+    grid-template-rows: 1fr 2fr 3fr 5fr 7fr 7fr 2fr 1fr 5fr 7fr 4fr 2fr;
+}
+h1 {
+    margin: 0;
+    padding-bottom: 10px;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;
+    font-family: 'Angkor';font-size: 20px;
+    font-size: 50px;
+    text-transform: uppercase;
+    animation: glow 2s ease-in-out infinite alternate;
+    text-align: center;
+  }
+  a {
+    font-family: 'Teko', sans-serif;
+    color: #4db1bc;
+    grid-column: 1;
+    grid-row: 1;
+    align-self: end;
+    justify-self: center;
+    padding-bottom: 1rem;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 20px whitesmoke;
+    }
+    to {
+      text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+    }
+  }
