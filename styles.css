@@ -65,22 +65,33 @@ grid__template {
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 3fr 1fr;
 }
-#plantilla {
+.plantilla {
     display: grid;
-    grid-template-areas:
-    "header header header"
-    "plataformas plataformas plataformas"
-    "info info info"
-    "video video vid-text"
-    "news news news"
-    "media media media"
-    "sign-up sign-up sign-up"
-    "newsletter newsletter newsletter"
-    "tw-feed tw-feed tw-feed"
-    "awards awards awards"
-    "merch merch merch"
-    "footer footer footer";
-    grid-template-rows: 1fr 2fr 3fr 5fr 7fr 7fr 2fr 1fr 5fr 7fr 4fr 2fr;
+    grid-template-areas: 
+    "foto foto1 foto2"
+    "texto texto1 texto2";
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+}
+
+.a{
+    grid-area: foto ;
+}
+.b{
+    grid-area: foto1;
+}
+.c{
+    grid-area: foto2;
+}
+.d{
+    grid-area: texto;
+}
+.e{
+    grid-area: texto1;
+}
+.f{
+    grid-area: texto2;
 }
 h1 {
     margin: 0;
