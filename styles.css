@@ -3,7 +3,7 @@ h1{
     color: #50808E;
 }
 p{
-    color: #69A297;
+    color: whitesmoke;
 }
 body{
     margin: 0;
@@ -15,10 +15,6 @@ body{
 }
 header{
     text-align: center;
-}
-footer{
-    font-family: sans-serif;
-    color: #A3C9A8;
 }
 ul {
     list-style-type: none;
@@ -33,10 +29,6 @@ a:link, a:visited {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-}
-footer {
-    padding: 5%;
-    text-align: center;
 }
 main {
     margin: 5%;
@@ -77,21 +69,33 @@ grid__template {
 
 .a{
     grid-area: foto ;
+    width: 350px ;
+    height: 300px;
 }
 .b{
     grid-area: foto1;
+    width: 350px ;
+    height: 300px;
 }
 .c{
     grid-area: foto2;
+    width: 350px ;
+    height: 300px;
 }
 .d{
     grid-area: texto;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .e{
     grid-area: texto1;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .f{
     grid-area: texto2;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 h1 {
     margin: 0;
@@ -104,8 +108,8 @@ h1 {
     text-transform: uppercase;
     animation: glow 2s ease-in-out infinite alternate;
     text-align: center;
-  }
-  a {
+}
+a {
     font-family: 'Teko', sans-serif;
     color: #4db1bc;
     grid-column: 1;
@@ -113,13 +117,39 @@ h1 {
     align-self: end;
     justify-self: center;
     padding-bottom: 1rem;
-  }
-  
-  @keyframes glow {
+}
+
+@keyframes glow {
     from {
-      text-shadow: 0 0 20px whitesmoke;
+    text-shadow: 0 0 20px whitesmoke;
     }
     to {
-      text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+    text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
     }
-  }
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 18px;
+}
+.white{
+    background-color: whitesmoke;
+}
+.navigation-bar{
+    font-family: 'Poppins', sans-serif;
+}
+.card-img-top1{
+  width: 350px;
+  height: 250px;
+}
+.card-img-top2{
+  width: 350px;
+  height: 250px;
+}
+.card-img-top3{
+  width: 350px;
+  height: 250px;
+}
+.card{
+  background-color: #73a9af52;
+}
