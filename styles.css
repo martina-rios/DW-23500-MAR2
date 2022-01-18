@@ -1,6 +1,6 @@
 h1{
     font-size: xx-large;
-    color: #50808E;
+    color: #5f8b99;
 }
 p{
     color: whitesmoke;
@@ -12,6 +12,8 @@ body{
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
+    width:  100%;
+    height: 100%;
 }
 header{
     text-align: center;
@@ -29,6 +31,7 @@ a:link, a:visited {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    border-radius: 25px;
 }
 main {
     margin: 5%;
@@ -51,11 +54,9 @@ section article {
     width: 500px;
     height: 500px;
 }
-grid__template {
-    display: grid;
-    background-color: thistle;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 3fr 1fr;
+#FormularioContacto{
+    margin: 0 auto;
+    width: 250px;
 }
 .plantilla {
     display: grid;
@@ -66,7 +67,6 @@ grid__template {
     grid-template-columns: auto auto auto;
     justify-items: center;
 }
-
 .a{
     grid-area: foto ;
     width: 350px ;
@@ -86,16 +86,19 @@ grid__template {
     grid-area: texto;
     padding-left: 5px;
     padding-right: 5px;
+    text-align: center;
 }
 .e{
     grid-area: texto1;
     padding-left: 5px;
     padding-right: 5px;
+    text-align: center;
 }
 .f{
     grid-area: texto2;
     padding-left: 5px;
     padding-right: 5px;
+    text-align: center;
 }
 h1 {
     margin: 0;
@@ -139,17 +142,17 @@ a {
     font-family: 'Poppins', sans-serif;
 }
 .card-img-top1{
-  width: 350px;
-  height: 250px;
+    width: 350px;
+    height: 250px;
 }
 .card-img-top2{
-  width: 350px;
-  height: 250px;
+    width: 350px;
+    height: 250px;
 }
 .card-img-top3{
-  width: 350px;
-  height: 250px;
+    width: 350px;
+    height: 250px;
 }
 .card{
-  background-color: #73a9af52;
+    background-color: #73a9af52;
 }

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sky | Inicio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="sass.css"/>
     <link  rel="icon"   href="https://img2.storyblok.com/fit-in/0x300/filters:format(png)/f/108104/368x415/436d2e239c/sky-logo-white.png" type="png" />
     <link href='https://fonts.googleapis.com/css?family=Angkor' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,19 +27,25 @@
             </nav>
         </header>
         <hr>
-        <main class="plantilla">
-            <img class="a" src="https://picsum.photos/300/300"  >
-            <img class="b" src="https://picsum.photos/300/300">
-            <img class="c" src="https://picsum.photos/300/300">
-            <p class="d">descripcion foto</p>
-            <p class="e">descripcion foto1</p>
-            <p class="f">descripcion foto2</p>
+        <main>
+            <video id="background-video" autoplay loop muted poster="imgs/sky-hero.jpeg">
+                <source src="video/background.mp4" type="video/mp4">
+            </video>
+            <div id="logo-index">
+                <img src="./imgs/logo grande.webp">
+            </div>
+            <div class="plataformas">
+                <div class="iconos"><a><img src="imgs/nintendo_black_logo_icon_147103.png" width="100px" height="100px"></a></div>
+                <div class="iconos"><a><img src="imgs/apple_black_logo_icon_147162.png" width="100px" height="100px"></a></div>
+                <div class="iconos"><a><img src="imgs/android_black_logo_icon_147164.png" width="100px" height="100px"></a></div>
+                <div class="iconos"><a><img src="imgs/youtube_black_logo_icon_147044.png" width="100px" height="100px"></a></div>
+            </div>
         </main>
-        <footer>
-            Martina Alicia Rios - DW-23500
-        </footer>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<footer>
+    Martina Alicia Rios - DW-23500
+</footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>

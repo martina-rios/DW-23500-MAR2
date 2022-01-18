@@ -1,1 +1,263 @@
-/* No CSS *//*# sourceMappingURL=sass.css.map */
+h1 {
+  font-size: xx-large;
+  color: #5f8b99;
+}
+
+p {
+  color: whitesmoke;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+header {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+a:link, a:visited {
+  background-color: #50808E;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+main {
+  margin: 5%;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  margin-top: 10px;
+}
+
+li {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+section article {
+  background-color: whitesmoke;
+  width: 500px;
+  height: 500px;
+}
+
+#FormularioContacto {
+  margin: 0 auto;
+  width: 250px;
+}
+
+.plantilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "foto foto1 foto2" "texto texto1 texto2";
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  justify-items: center;
+}
+
+.a {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: foto;
+  width: 350px;
+  height: 300px;
+}
+
+.b {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: foto1;
+  width: 350px;
+  height: 300px;
+}
+
+.c {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: foto2;
+  width: 350px;
+  height: 300px;
+}
+
+.d {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: texto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.e {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: texto1;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.f {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: texto2;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+h1 {
+  margin: 0;
+  padding-bottom: 10px;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  z-index: 1;
+  font-family: 'Angkor';
+  font-size: 20px;
+  font-size: 50px;
+  text-transform: uppercase;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+          animation: glow 2s ease-in-out infinite alternate;
+  text-align: center;
+}
+
+a {
+  font-family: 'Teko', sans-serif;
+  color: #4db1bc;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  padding-bottom: 1rem;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 20px whitesmoke;
+  }
+  to {
+    text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+  }
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px whitesmoke;
+  }
+  to {
+    text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+  }
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 18px;
+}
+
+.white {
+  background-color: whitesmoke;
+}
+
+.navigation-bar {
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-img-top1 {
+  width: 350px;
+  height: 250px;
+}
+
+.card-img-top2 {
+  width: 350px;
+  height: 250px;
+}
+
+.card-img-top3 {
+  width: 350px;
+  height: 250px;
+}
+
+.card {
+  background-color: #73a9af52;
+}
+
+.plataformas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.iconos {
+  border-radius: 100%;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-content: center;
+}
+
+.iconos:hover {
+  background-color: #bcd7df;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (max-width: 750px) {
+  #background-video { display: none; }
+  body {
+    background-image: url(./imgs/fondo-index.jpeg);
+    background-size: cover;
+  }
+}
+#logo-index {
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=sass.css.map */
