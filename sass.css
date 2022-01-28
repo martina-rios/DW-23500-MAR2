@@ -1,8 +1,8 @@
-p {
+.p {
   color: whitesmoke;
 }
 
-body {
+.body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-size: cover;
@@ -22,13 +22,16 @@ ul {
 }
 
 a:link, a:visited {
-  background-color: rgb(53, 79, 83);
   color: white;
   padding: 15px 25px;
   text-align: center;
-  text-decoration: none;
+  text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  transition: text-decoration-color 300ms;
   display: inline-block;
   border-radius: 25px;
+}
+a:hover {
+  text-decoration-color: rgb(255, 255, 255);
 }
 
 main {
@@ -57,7 +60,7 @@ section article {
   height: 500px;
 }
 
-#FormularioContacto {
+.form-group {
   margin: 0 auto;
   width: 250px;
 }
@@ -141,6 +144,7 @@ h1 {
 
 a {
   font-family: 'Poppins', sans-serif;
+  font-weight: bold;
   -ms-grid-column: 1;
   grid-column: 1;
   -ms-grid-row: 1;
@@ -208,28 +212,6 @@ a {
   background-color: #73a9af52;
 }
 
-.plataformas {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  width:100%;
-  display: flex;
-  justify-content: center;
-}
-
-.iconos {
-  border-radius: 100%;
-  margin: 20px;
-  width: 100px;
-  height: 100px;
-  margin-left: 10px;
-  margin-right: 10px;
-  align-content: center;
-}
-
-.iconos:hover {
-  background-color: #bcd7df;
-}
-
 #background-video {
   width: 100vw;
   height: 100vh;
@@ -249,10 +231,39 @@ a {
     background-size: cover;
   }
 }
+
+.plataformas {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.iconos {
+  border-radius: 100%;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  align-content: center;
+}
+
+.iconos:hover {
+  background-color: #bcd7df;
+}
+
 #logo-index {
   width:100%;
   display: flex;
   justify-content: center;
 }
+
+#form-group {
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /*# sourceMappingURL=sass.css.map */
