@@ -32,22 +32,28 @@
             <video id="background-video" autoplay loop muted poster="imgs/sky-hero.jpeg">
                 <source src="video/background.mp4" type="video/mp4">
             </video>
-        <h1>Contacto</h1>
-        <form id="form-group">
-            <div>
-                <input type="nombre" placeholder="Nombre">
-            </div>
-            <div>
-                <input type="email" placeholder="Correo electrónico">
-            </div>
-            <div>
-                <input type="nombre" placeholder="Nombre">
-            </div>
-        </form>
+        <div class=Formulario>
+            <h1>Contacto</h1>
+            <form id="form-group">
+                <div id=nombre>
+                    <input type="nombre" class="form-control" placeholder="Nombre">
+                </div>
+                <div id=email>
+                    <input type="email" class="form-control" placeholder="Correo electrónico">
+                </div>
+                <div id=mensaje>
+                    <textarea id=textarea type="mensaje" class="form-control" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <div id=enviar>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
         </div>
     </main>
-    <footer>
-    Martina Alicia Rios - DW-23500
+    <footer id=footer>
+        <div id=footer-cont>
+            <span>Martina Alicia Rios - DW-23500</span>
+        </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
