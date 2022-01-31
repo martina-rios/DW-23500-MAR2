@@ -66,7 +66,7 @@ section article {
 }
 
 .plantilla {
-  display: -ms-grid;
+  display: inline;
   display: grid;
       grid-template-areas: "foto foto1 foto2" "texto texto1 texto2";
   -ms-grid-rows: auto auto;
@@ -194,7 +194,20 @@ h1 {
 }
 
 .card {
-  background-color: #73a9af52;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #5f8b9970;
+  border-style: none;
+  text-align: center;
+}
+
+.btn-primary, .btn-primary:visited {
+  background-color: whitesmoke !important;
+  color: #5f8b99;
+  font-weight: bolder;
+  font-size: 18px;
+  border-style: none;
 }
 
 #background-video {
@@ -340,6 +353,25 @@ input[type="submit"] {
 
 #enviar {
   padding-top: 10px;
+}
+
+.img-novedades {
+padding-right: 20px;
+padding-left: 20px;
+display:block;
+margin:auto;
+padding-bottom: 20px;
+}
+
+.novedades {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #f8b99;
+  background-color:  rgba(245, 245, 245, 0.63);
+  border-radius: 15px;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 5%;
 }
 
 /*# sourceMappingURL=sass.css.map */
