@@ -4,45 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sky | Guía del juego</title>
+    <title>Sky | Contacto</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="sass.css"/>
+    <link rel="stylesheet" href="../sass.css"/>
     <link  rel="icon"   href="https://img2.storyblok.com/fit-in/0x300/filters:format(png)/f/108104/368x415/436d2e239c/sky-logo-white.png" type="png" />
     <link href='https://fonts.googleapis.com/css?family=Angkor' rel='stylesheet'>
+    <link  rel="icon"   href="https://img2.storyblok.com/fit-in/0x300/filters:format(png)/f/108104/368x415/436d2e239c/sky-logo-white.png" type="png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="../JS/main.js"></script>
 </head>
 <body>
     <header class="main header">
         <nav class="navigation-bar">
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="guia.html">Guia del juego</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="musica.html">Musica</a></li>
-                <li><a href="novedades.html">Novedades</a></li>
+                <li><a href="../HTML/index.html">Inicio</a></li>
+                <li><a href="../HTML/guia.html">Guia del juego</a></li>
+                <li><a href="../HTML/contacto.html">Contacto</a></li>
+                <li><a href="../HTML/musica.html">Musica</a></li>
+                <li><a href="../HTML/novedades.html">Novedades</a></li>
             </ul>
         </nav>
     </header>
-<main>
-    <div>
-        <video id="background-video" autoplay loop muted poster="imgs/sky-hero.jpeg">
-            <source src="video/background.mp4" type="video/mp4">
-        </video>
-    </div>
-    <div class=Guia>
-        <h1 class=TituloGuia>Deja que la luz sea tu guia</h1>
-        <p class=TextoGuia>Desde temporadas de aventuras y eventos en el juego, hasta un mundo en constante expansión de amistades y coleccionables para desbloquear, ¡hay mucho que hacer en Sky! Devuelve la luz a las constelaciones mientras ayudas a otros. Bienvenido al reino de Sky.</p>
-        <iframe class=VideoGuia width="900" height="500" src="https://www.youtube.com/embed/f0XBmzddf40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
-    </div>
-</main>
+    <hr>
+    <main>
+        <div>
+            <video id="background-video" autoplay loop muted poster="imgs/sky-hero.jpeg">
+                <source src="../video/background.mp4" type="video/mp4">
+            </video>
+        <div class=Formulario>
+            <h1>Contacto</h1>
+            <form id="form-group">
+                <div id=nombre>
+                    <input type="nombre" class="form-control" placeholder="Nombre">
+                </div>
+                <div id=email>
+                    <input type="email" class="form-control" placeholder="Correo electrónico">
+                </div>
+                <div id=mensaje>
+                    <textarea id=textarea type="mensaje" class="form-control" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <div id=enviar>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </main>
     <footer id=footer>
         <div id=footer-cont>
             <span>Martina Alicia Rios - DW-23500</span>
         </div>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
